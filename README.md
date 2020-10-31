@@ -2,7 +2,7 @@
 <img width="350" src=".github/Icon1.png">
 </p>
 
-<h1 align="center">Quiz App - Hacktoberfest</h1>
+---
 
 <img width="100%" src=".github/screens.png">
 
