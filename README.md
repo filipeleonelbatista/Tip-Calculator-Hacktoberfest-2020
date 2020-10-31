@@ -1,5 +1,5 @@
 <p align="center"> 
-<img width="100" src=".github/icon1.png">
+<img width="100" src=".github/Icon1.png">
 </p>
 
 <h1 align="center">Quiz App - Hacktoberfest</h1>
