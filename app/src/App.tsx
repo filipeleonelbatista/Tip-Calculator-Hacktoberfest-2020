@@ -4,7 +4,8 @@ import { FaAdjust,
          FaInstagram, 
          FaLinkedinIn, 
          FaGithub, 
-         FaDiscord } from 'react-icons/fa';
+         FaDiscord,
+         FaGlobe } from 'react-icons/fa';
 import './App.css';
 
 function App() {
@@ -124,24 +125,27 @@ function App() {
 
         <div className="result">
           <div className="totalTip">
-              Valor Gorjeta: R$ {gorjeta}
+              Valor Gorjeta: R$ {isNaN(gorjeta) ? gorjeta : '0,00'}
           </div>
           <div className="totalPrice">
-            Valor: R$ {valorTotal}
+            Valor: R$ {isNaN(valorTotal) ? valorTotal : '0,00'}
           </div>
         </div>
 
       </main>
       <footer>
         <div className="social">
-            <a href="https://instagram.com/filipegaucho22" target="_blank" rel="noopener noreferrer">                      
+            <a href="https://instagram.com/filipeleonelbatista" target="_blank" rel="noopener noreferrer">                      
               <FaInstagram color="#FFF" size={16} />
             </a>
-            <a href="https://www.linkedin.com/in/filipelbatista/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/filipeleonelbatista/" target="_blank" rel="noopener noreferrer">
               <FaLinkedinIn color="#FFF" size={16} />
             </a>
             <a href="https://github.com/filipeleonelbatista/" target="_blank" rel="noopener noreferrer">
               <FaGithub color="#FFF" size={16} />
+            </a>
+            <a href="https://desenvolvedordeaplicativos.ga/" target="_blank" rel="noopener noreferrer">
+              <FaGlobe color="#FFF" size={16} />
             </a>
             <a href="https://discord.gg/yvYXhGj" target="_blank" rel="noopener noreferrer">
               <FaDiscord color="#FFF" size={16} />
