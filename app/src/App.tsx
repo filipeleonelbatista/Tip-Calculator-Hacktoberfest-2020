@@ -125,10 +125,10 @@ function App() {
 
         <div className="result">
           <div className="totalTip">
-              Valor Gorjeta: R$ {isNaN(gorjeta) ? gorjeta : '0,00'}
+              Valor Gorjeta: R$ {gorjeta}
           </div>
           <div className="totalPrice">
-            Valor: R$ {isNaN(valorTotal) ? valorTotal : '0,00'}
+            Valor: R$ {valorTotal}
           </div>
         </div>
 
